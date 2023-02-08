@@ -77,22 +77,64 @@ padding:2px;
   display:flex;
 }
 .contact{
-  background-color: rgb(36, 136, 36);
+  background-color: rgb(10, 79, 10);
 }
 .about{
-  background-color:rgb(122, 46, 46)
+  background-color:rgb(160, 58, 58)
 }
 .contact,.about{
-  min-height:50px;
+  min-height:25px;
   padding:12px;
   color:white;
 }
-.contact h2,.about h2{
-  font-size:30px;
-  font-weight:12px ;
-  margin-bottom:10px;
+.contact h2,
+.about h2{
+  font-size:25px;
+  font-weight:100;
+  margin-bottom:5px;
 }
 .contact p,.about p{
-  /* font-size:30px; */
-  margin-bottom:20px;
+  margin-bottom:10px;
+}
+footer{
+background-color: black;
+color:white;
+text-align:center;
+text-transform:uppercase;
+padding:10px;
+}
+@media(max-width:950px){
+.hero_section{
+  min-height:150vh;
+}
+.text_container{
+  padding:10px 0;
+  text-align:center;
+}
+.lg_text{
+font-size:32px;
+}
+.black_box h2{
+font-size:24px;
+}
+.black_box h2 span{
+   font-weight:400;
+   font-size:32px;
+}
+.bottom_section{
+flex-direction:column;
+}
+
+h1{
+  font-size:32px;
+}
+.contact h2,
+.about h2{
+font-size:32px;
+
+}
+
+
+
+
 }
